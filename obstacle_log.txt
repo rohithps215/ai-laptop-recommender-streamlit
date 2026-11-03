@@ -1,0 +1,43 @@
+
+AI Laptop Decision Assistant - Obstacle Log
+
+1. Gemini Model Availability
+   Problem:
+   Some Gemini models were unavailable or experiencing high demand.
+
+   Solution:
+   Used a configurable model name in config.py and .env.
+
+2. API Connectivity
+   Problem:
+   Encountered getaddrinfo failed error while connecting to Gemini.
+
+   Solution:
+   Checked internet connectivity and DNS resolution.
+   The connection worked after resolving the network issue.
+
+3. Function Calling
+   Problem:
+   Connecting Gemini with Python recommendation functions
+   required proper tool definitions.
+
+   Solution:
+   Used Google GenAI SDK function calling to execute
+   deterministic Python functions.
+
+4. Dataset Creation
+   Problem:
+   Finding a suitable laptop dataset with all required
+   specifications was difficult.
+
+   Solution:
+   Created a local JSON dataset containing 12
+   representative laptop configurations.
+
+5. Conversation Export
+   Problem:
+   Users needed a way to save their recommendations.
+
+   Solution:
+   Added a Streamlit download button to export conversations
+   as text files.

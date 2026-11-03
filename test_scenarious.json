@@ -1,0 +1,33 @@
+
+[
+  {
+    "id": 1,
+    "scenario": "Normal request",
+    "input": "Suggest a laptop under 50000 for programming",
+    "expected": "Return ranked programming laptops within budget"
+  },
+  {
+    "id": 2,
+    "scenario": "Gaming request",
+    "input": "Suggest a gaming laptop with dedicated GPU",
+    "expected": "Return laptops with dedicated graphics"
+  },
+  {
+    "id": 3,
+    "scenario": "Budget request",
+    "input": "Find the best laptop under 35000",
+    "expected": "Return affordable laptops within budget"
+  },
+  {
+    "id": 4,
+    "scenario": "Ambiguous request",
+    "input": "I want a good laptop",
+    "expected": "Ask the user to clarify requirements"
+  },
+  {
+    "id": 5,
+    "scenario": "Impossible request",
+    "input": "I want RTX 4060 under 20000",
+    "expected": "Explain that no matching laptop exists"
+  }
+]
